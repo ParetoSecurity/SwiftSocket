@@ -12,6 +12,26 @@
 		375C48351DDC4C56008C701D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375C48331DDC4C56008C701D /* Main.storyboard */; };
 		375C48371DDC4C56008C701D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375C48361DDC4C56008C701D /* Assets.xcassets */; };
 		375C483A1DDC4C56008C701D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375C48381DDC4C56008C701D /* LaunchScreen.storyboard */; };
+		86ED895826343D9F00DE533C /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 86ED894F26343D8F00DE533C /* yudpsocket.c */; };
+		86ED895926343D9F00DE533C /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 86ED895026343D8F00DE533C /* ytcpsocket.c */; };
+		86ED895A26343D9F00DE533C /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED895426343D8F00DE533C /* TCPClient.swift */; };
+		86ED895B26343D9F00DE533C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED895526343D8F00DE533C /* Result.swift */; };
+		86ED895C26343D9F00DE533C /* UDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED895626343D8F00DE533C /* UDPClient.swift */; };
+		86ED895D26343D9F00DE533C /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED895726343D8F00DE533C /* Socket.swift */; };
+		86ED896226343DAC00DE533C /* SwiftSocketC.h in Headers */ = {isa = PBXBuildFile; fileRef = 86ED895226343D8F00DE533C /* SwiftSocketC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86ED896826343DCD00DE533C /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 86ED894F26343D8F00DE533C /* yudpsocket.c */; };
+		86ED896926343DCD00DE533C /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 86ED895026343D8F00DE533C /* ytcpsocket.c */; };
+		86ED896A26343DCD00DE533C /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED895426343D8F00DE533C /* TCPClient.swift */; };
+		86ED896B26343DCD00DE533C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED895526343D8F00DE533C /* Result.swift */; };
+		86ED896C26343DCD00DE533C /* UDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED895626343D8F00DE533C /* UDPClient.swift */; };
+		86ED896D26343DCD00DE533C /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED895726343D8F00DE533C /* Socket.swift */; };
+		86ED897726343E2D00DE533C /* SwiftSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 86ED897226343E1900DE533C /* SwiftSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86ED897C26343E4200DE533C /* SwiftSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 86ED897226343E1900DE533C /* SwiftSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86ED897D26343E4200DE533C /* SwiftSocketC.h in Headers */ = {isa = PBXBuildFile; fileRef = 86ED895226343D8F00DE533C /* SwiftSocketC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86ED898226343E6300DE533C /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 86ED894F26343D8F00DE533C /* yudpsocket.c */; };
+		86ED898326343E6300DE533C /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 86ED895026343D8F00DE533C /* ytcpsocket.c */; };
+		86ED898826343E7400DE533C /* SwiftSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 86ED897226343E1900DE533C /* SwiftSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86ED898926343E7400DE533C /* SwiftSocketC.h in Headers */ = {isa = PBXBuildFile; fileRef = 86ED895226343D8F00DE533C /* SwiftSocketC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +47,18 @@
 		377DAA761DCDE45D00009697 /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86ED89142634353D00DE533C /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		86ED89152634353D00DE533C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86ED89162634353E00DE533C /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
-		86ED89172634353E00DE533C /* Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tests; sourceTree = "<group>"; };
 		86ED89182634355900DE533C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		86ED894926343D8F00DE533C /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
+		86ED894B26343D8F00DE533C /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		86ED894C26343D8F00DE533C /* SwiftSocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSocketTests.swift; sourceTree = "<group>"; };
+		86ED894F26343D8F00DE533C /* yudpsocket.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		86ED895026343D8F00DE533C /* ytcpsocket.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		86ED895226343D8F00DE533C /* SwiftSocketC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftSocketC.h; sourceTree = "<group>"; };
+		86ED895426343D8F00DE533C /* TCPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPClient.swift; sourceTree = "<group>"; };
+		86ED895526343D8F00DE533C /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		86ED895626343D8F00DE533C /* UDPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPClient.swift; sourceTree = "<group>"; };
+		86ED895726343D8F00DE533C /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		86ED897226343E1900DE533C /* SwiftSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftSocket.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +109,11 @@
 		5518C82619A3290F0049DC22 = {
 			isa = PBXGroup;
 			children = (
+				86ED894D26343D8F00DE533C /* Sources */,
+				86ED894826343D8F00DE533C /* Tests */,
 				86ED89182634355900DE533C /* Package.swift */,
 				86ED89142634353D00DE533C /* Info-tvOS.plist */,
 				86ED89152634353D00DE533C /* Info.plist */,
-				86ED89162634353E00DE533C /* Sources */,
-				86ED89172634353E00DE533C /* Tests */,
 				375C482E1DDC4C56008C701D /* iOS Example */,
 				5518C83019A329100049DC22 /* Products */,
 			);
@@ -101,6 +130,63 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		86ED894826343D8F00DE533C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				86ED894926343D8F00DE533C /* LinuxMain.swift */,
+				86ED894A26343D8F00DE533C /* SwiftSocketTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		86ED894A26343D8F00DE533C /* SwiftSocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				86ED894B26343D8F00DE533C /* XCTestManifests.swift */,
+				86ED894C26343D8F00DE533C /* SwiftSocketTests.swift */,
+			);
+			path = SwiftSocketTests;
+			sourceTree = "<group>";
+		};
+		86ED894D26343D8F00DE533C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				86ED894E26343D8F00DE533C /* SwiftSocketC */,
+				86ED895326343D8F00DE533C /* SwiftSocket */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		86ED894E26343D8F00DE533C /* SwiftSocketC */ = {
+			isa = PBXGroup;
+			children = (
+				86ED894F26343D8F00DE533C /* yudpsocket.c */,
+				86ED895026343D8F00DE533C /* ytcpsocket.c */,
+				86ED895126343D8F00DE533C /* include */,
+			);
+			path = SwiftSocketC;
+			sourceTree = "<group>";
+		};
+		86ED895126343D8F00DE533C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				86ED897226343E1900DE533C /* SwiftSocket.h */,
+				86ED895226343D8F00DE533C /* SwiftSocketC.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		86ED895326343D8F00DE533C /* SwiftSocket */ = {
+			isa = PBXGroup;
+			children = (
+				86ED895426343D8F00DE533C /* TCPClient.swift */,
+				86ED895526343D8F00DE533C /* Result.swift */,
+				86ED895626343D8F00DE533C /* UDPClient.swift */,
+				86ED895726343D8F00DE533C /* Socket.swift */,
+			);
+			path = SwiftSocket;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -108,6 +194,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86ED898826343E7400DE533C /* SwiftSocket.h in Headers */,
+				86ED898926343E7400DE533C /* SwiftSocketC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +203,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86ED896226343DAC00DE533C /* SwiftSocketC.h in Headers */,
+				86ED897726343E2D00DE533C /* SwiftSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +212,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86ED897C26343E4200DE533C /* SwiftSocket.h in Headers */,
+				86ED897D26343E4200DE533C /* SwiftSocketC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +383,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86ED898226343E6300DE533C /* yudpsocket.c in Sources */,
+				86ED898326343E6300DE533C /* ytcpsocket.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +401,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86ED895826343D9F00DE533C /* yudpsocket.c in Sources */,
+				86ED895926343D9F00DE533C /* ytcpsocket.c in Sources */,
+				86ED895A26343D9F00DE533C /* TCPClient.swift in Sources */,
+				86ED895B26343D9F00DE533C /* Result.swift in Sources */,
+				86ED895C26343D9F00DE533C /* UDPClient.swift in Sources */,
+				86ED895D26343D9F00DE533C /* Socket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +414,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86ED896826343DCD00DE533C /* yudpsocket.c in Sources */,
+				86ED896926343DCD00DE533C /* ytcpsocket.c in Sources */,
+				86ED896A26343DCD00DE533C /* TCPClient.swift in Sources */,
+				86ED896B26343DCD00DE533C /* Result.swift in Sources */,
+				86ED896C26343DCD00DE533C /* UDPClient.swift in Sources */,
+				86ED896D26343DCD00DE533C /* Socket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +460,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -386,7 +492,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -467,9 +573,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiftsocket.SwiftSocket;
 				PRODUCT_NAME = SwiftSocket;
@@ -502,9 +608,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiftsocket.SwiftSocket;
 				PRODUCT_NAME = SwiftSocket;
@@ -532,7 +638,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiftsocket.SwiftSocket;
@@ -558,7 +664,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiftsocket.SwiftSocket;
